@@ -1,10 +1,11 @@
 .row{
-    padding: 20px;
+    padding: 50px;
 }
 div{
     background-color:#a1b5cb ;
-    text-align: center;
+    text-align: Left;
 }
+
 /* estilo de la foto de perfil*/
 @media(min-width: 576px){
     #fotodeperfil{
@@ -13,7 +14,7 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left:3%;
-        top: 600px;
+        top: 300px;
     }
 
 }
@@ -25,13 +26,13 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left:33%;
-        top: 630px;
+        top: 300px;
     }
 }    
 
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 55%;
     
 }
