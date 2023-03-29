@@ -16,6 +16,11 @@ div{
         left:3%;
         top: 300px;
     }
+    #nombre{
+        font-weight: bold;
+        margin-top: 50%;
+        
+    }
 
 }
 
@@ -26,13 +31,14 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left:33%;
-        top: 300px;
+        top: 650px;
+    }
+    #nombre{
+        font-weight: bold;
+        margin-top: 5%;
+        
     }
 }    
 
-/*etiqueta nombre*/
-#nombre{
-    font-weight: bold;
-    margin-top: 55%;
-    
-}
+
+

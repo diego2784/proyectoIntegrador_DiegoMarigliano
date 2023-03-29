@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RsocialComponent } from './rsocial.component';
+import { DividerComponent } from './divider.component';
 
-describe('RsocialComponent', () => {
-  let component: RsocialComponent;
-  let fixture: ComponentFixture<RsocialComponent>;
+describe('DividerComponent', () => {
+  let component: DividerComponent;
+  let fixture: ComponentFixture<DividerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RsocialComponent ]
+      declarations: [ DividerComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RsocialComponent);
+    fixture = TestBed.createComponent(DividerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
