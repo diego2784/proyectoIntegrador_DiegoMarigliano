@@ -14,6 +14,10 @@ import { HysComponent } from './components/hys/hys.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DividerComponent } from './components/divider/divider.component';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +35,8 @@ import { DividerComponent } from './components/divider/divider.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
