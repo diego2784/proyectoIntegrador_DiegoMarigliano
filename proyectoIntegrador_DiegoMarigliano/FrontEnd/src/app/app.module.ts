@@ -15,6 +15,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DividerComponent } from './components/divider/divider.component';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -30,7 +32,9 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     HysComponent,
     ProyectosComponent,
     FooterComponent,
-    DividerComponent
+    DividerComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

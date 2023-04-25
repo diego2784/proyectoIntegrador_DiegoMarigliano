@@ -1,0 +1,70 @@
+.login-section {
+    height: 100vh;
+    background-color: #F8F9FA;
+  }
+  
+  .card {
+    border-radius: 1rem;
+  }
+  
+  .form-control {
+    background-color: #E9EEF2;
+    border: none;
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #6c757d;
+  }
+  
+  .form-control::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  .form-control:-moz-placeholder {
+    color: #888;
+  }
+  
+  .form-control::-moz-placeholder {
+    color: #888;
+  }
+  
+  .form-control:-ms-input-placeholder {
+    color: #888;
+  }
+  
+  .btn-primary {
+    background-color: #508BFC;
+    border: none;
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2966D9;
+  }
+  
+  .form-check-label {
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .form-check-input {
+    margin-right: 0.5rem;
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      margin-top: 3rem;
+    }
+  }
+  
